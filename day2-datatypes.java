@@ -23,9 +23,10 @@ public class Solution {
         d2=scan.nextDouble();
         double sumDouble=d+d2;
         System.out.println(sumDouble);
+        scan.nextLine();
         s2=scan.nextLine();
-        String s3=s+s2;
-        System.out.println(s3);
+        System.out.print(s+s2);
+        //System.out.print(s + " " + s2);
         
         /* Print the sum of both integer variables on a new line. */
 
