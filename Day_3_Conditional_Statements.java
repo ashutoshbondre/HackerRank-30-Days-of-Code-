@@ -23,11 +23,11 @@ public class Solution {
                 }
             else if (n>=6 && n<=20)
                 {
-                        ans="Weird";            
+                     ans="Weird";            
                 }
             else
                 {
-                        ans="Not Weird";
+                     ans="Not Weird";
                 }
       }
       System.out.println(ans);
