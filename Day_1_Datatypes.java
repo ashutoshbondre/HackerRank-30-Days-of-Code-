@@ -28,12 +28,12 @@ public class Solution {
         System.out.print(s+s2);
         //System.out.print(s + " " + s2);
         
-        /* Print the sum of both integer variables on a new line. */
+        /*  Print the sum of both integer variables on a new line. */
 
-        /* Print the sum of the double variables on a new line. */
+        /*  Print the sum of the double variables on a new line. */
 		
-        /* Concatenate and print the String variables on a new line; 
-        	the 's' variable above should be printed first. */
+        /*  Concatenate and print the String variables on a new line; 
+            the 's' variable above should be printed first. */
        scan.close();
 
     }
