@@ -7,15 +7,15 @@ public class Person {
 	public Person(int initialAge) 
 	{
   		// Add some more code to run some checks on initialAge
-        if(initialAge<0)
-            {
+		if(initialAge<0)
+            	{
                     System.out.println("Age is not valid, setting age to 0.");
                     age=0;
-            }
-        else
-            {
-                age=initialAge;
-            }	
+        	}
+        	else
+            	{
+                    age=initialAge;
+            	}	
         
 	}
 
@@ -37,9 +37,10 @@ public class Person {
         
 	}
 
-	public void yearPasses() {
-  		// Increment this person's age.
-        age++;
+	public void yearPasses() 
+	{
+  		// Incrementing this person's age.
+        	age++;
 	}
 	
 public static void main(String[] args) {
