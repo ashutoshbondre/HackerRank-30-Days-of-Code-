@@ -4,7 +4,8 @@ import java.util.*;
 public class Person {
     private int age;	
   
-	public Person(int initialAge) {
+	public Person(int initialAge) 
+	{
   		// Add some more code to run some checks on initialAge
         if(initialAge<0)
             {
@@ -14,7 +15,7 @@ public class Person {
         else
             {
                 age=initialAge;
-          }
+            }	
         
 	}
 
