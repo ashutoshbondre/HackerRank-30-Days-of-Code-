@@ -2,7 +2,7 @@ import java.util.*;
 import java.io.*;
 
 class Solution{
-    public static void main(String []argh){
+    public static void main(String []args){
         Scanner in = new Scanner(System.in);
         int n = in.nextInt();
         HashMap<String,Integer> Hmap = new HashMap<String,Integer>();
