@@ -12,7 +12,8 @@ public class Solution {
         int a[][] = new int[6][6];
         for(int i=0; i < 6; i++)
         {
-            for(int j=0; j < 6; j++){
+            for(int j=0; j < 6; j++)
+            {
                 a[i][j] = in.nextInt();
             }
         }
