@@ -6,7 +6,8 @@ import java.util.regex.*;
 
 public class Solution {
 
-    public static void main(String[] args) {
+    public static void main(String[] args) 
+    {
         Scanner in = new Scanner(System.in);
         int a[][] = new int[6][6];
         for(int i=0; i < 6; i++){
