@@ -21,7 +21,7 @@ class Person {
 	 
 }
 class Student extends Person{
-	private int[] testScores;
+private int[] testScores;
     Student(String first, String last, int id, int[] s)
         {
            super(first,last,id);
