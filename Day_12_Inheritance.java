@@ -28,8 +28,8 @@ class Student extends Person{
             testScores=s;
         }
      
-		    public char calculate() {
-		        char grade;
+	public char calculate() {
+		char grade;
                 int score=0;
                 int len = testScores.length;
                 for(int i=0;i<len;i++)
