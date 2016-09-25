@@ -5,6 +5,7 @@ import java.math.*;
 import java.util.regex.*;
 
 
-class Difference {
+class Difference 
+{
   	private int[] elements;
   	public int maximumDifference;
