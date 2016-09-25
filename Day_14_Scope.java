@@ -9,4 +9,4 @@ class Difference
 {
   	private int[] elements;
   	public int maximumDifference;
-   public int flag=0;
+    public int flag=0;
