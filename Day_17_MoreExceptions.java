@@ -10,5 +10,6 @@ public class Solution {
     {
         Scanner in = new Scanner(System.in);
         String S = in.next();
+        System.out.println("Is it right input");
     }
 }
