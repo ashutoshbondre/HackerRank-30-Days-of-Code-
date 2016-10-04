@@ -1,6 +1,7 @@
 import java.io.*;
 import java.util.*;
 
-interface AdvancedArithmetic{
+interface AdvancedArithmetic
+{
    int divisorSum(int n);
 }
