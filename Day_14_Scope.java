@@ -27,8 +27,8 @@ class Difference
                         {
                             maximumDifference=value;
                         }
+                    }
                 }
-        }
         }
   } // End of Difference class
 
