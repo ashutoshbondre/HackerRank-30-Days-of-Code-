@@ -8,7 +8,7 @@ class Calculator
         if(a<0||b<0)
             {
             throw new Exception("n and p should be non-negative");
-        }
+            }
         int result = (int)(Math.pow(a,b));
         return result;
     }
