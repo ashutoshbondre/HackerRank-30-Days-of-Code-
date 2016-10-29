@@ -7,7 +7,9 @@ class Node{
     {
         this.data=data;
         left=right=null;
+        
     }
 }
 class Solution{
+    Node one = new Node(3);
     
