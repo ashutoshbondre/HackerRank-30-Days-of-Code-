@@ -1,7 +1,8 @@
 import java.io.*;
 import java.util.*;
 
-interface AdvancedArithmetic{
+interface AdvancedArithmetic
+{
    int divisorSum(int n);
 }
 //Write your code here
@@ -27,7 +28,6 @@ class Solution {
         Scanner scan = new Scanner(System.in);
         int n = scan.nextInt();
         scan.close();
-        
       	AdvancedArithmetic myCalculator = new Calculator(); 
         int sum = myCalculator.divisorSum(n);
         System.out.println("I implemented: " + myCalculator.getClass().getInterfaces()[0].getName() );
