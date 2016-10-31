@@ -7,30 +7,30 @@ public class Solution {
     void enqueueCharacter(char ch)
         {
         kkk.enqueueCharacter(ch);
-    }
+        }
      char dequeueCharacter()
-        {
+       {
          char ans = (char)kkk.dequeueCharacter();
          return ans;
-    } 
+        } 
     public class que
-    {
+        {
         LinkedList q;
         public que()
             {
             q=new LinkedList();
-        }
+            }
        void enqueueCharacter(char ch)
         {
-        q.addLast(ch);
-    }
+            q.addLast(ch);
+        }
     char dequeueCharacter()
         {
          char ans = (char)q.remove(0);
-        return ans;
-    } 
+         return ans;
+        } 
     }
-    void pushCharacter(char c)
+   void pushCharacter(char c)
         {
         s.push(c);
     }
