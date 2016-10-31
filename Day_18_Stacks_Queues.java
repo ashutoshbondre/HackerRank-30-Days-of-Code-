@@ -31,7 +31,7 @@ public class Solution {
         } 
     }
    void pushCharacter(char c)
-        {
+     {
         s.push(c);
     }
     char popCharacter()
