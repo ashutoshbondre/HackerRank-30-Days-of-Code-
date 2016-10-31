@@ -17,7 +17,7 @@ interface AdvancedArithmetic{
                     {
                         sum=sum+i;
                     }
-            }
+                }
         return sum;
     }
 }
