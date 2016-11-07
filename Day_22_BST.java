@@ -10,8 +10,10 @@ class Node{
 }
 class Solution{
     
-    public static int getHeight(Node root){
+   public static int getHeight(Node root){
       //Write your code here
+        if(root==null) return -1;
+        return 1+Math.max(getHeight(root.left) , getHeight(root.right));
     }
 
 public static Node insert(Node root,int data)
