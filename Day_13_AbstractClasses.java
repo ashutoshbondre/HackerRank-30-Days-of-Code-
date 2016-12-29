@@ -12,6 +12,7 @@ abstract class Book
 
 }
 //Write MyBook Class
+
 class MyBook extends Book
     {
     private int price;
