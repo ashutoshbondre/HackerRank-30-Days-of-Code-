@@ -9,6 +9,7 @@ class Difference
 {
   	private int[] elements;
   	public int maximumDifference;
+  
     // Add your code here
     public Difference (int a[])
         {
